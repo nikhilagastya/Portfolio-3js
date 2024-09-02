@@ -29,8 +29,25 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import Artendance from "./Artendance.png";
+import AWS from "./AWS.png";
+import BlindAid from "./BlindAid.png";
+import Firebase from "./Firebase.png";
+import Jenkins from "./Jenkins.png";
+import MongoDB from "./MongoDB.png";
+import OpenCV from "./OpenCV.png";
+import PRHome from "./PRHome.png";
+
 
 export {
+  Artendance,
+  AWS,
+  BlindAid,
+  Firebase,
+  Jenkins,
+  MongoDB,
+  OpenCV,
+  PRHome,
   logo,
   backend,
   creator,
