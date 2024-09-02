@@ -30,6 +30,8 @@ import {
     PRHome,
     BlindAid,
     Artendance,
+    logo,
+    BlueSky,
   } from "../assets";
   
   export const navLinks = [
@@ -130,7 +132,7 @@ import {
     {
       title: "Teaching Assisstant",
       company_name: "Blue Sky Coding",
-      icon: 'http://www.blueskycoding-gh.com/assets/logo.png',
+      icon: BlueSky,
       iconBg: "white",
       date: "March 2022 - July 2022",
       points: [
