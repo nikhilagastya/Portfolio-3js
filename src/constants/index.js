@@ -27,6 +27,9 @@ import {
     MongoDB,
     OpenCV,
     AWS,
+    PRHome,
+    BlindAid,
+    Artendance,
   } from "../assets";
   
   export const navLinks = [
@@ -230,7 +233,7 @@ import {
        
 
       ],
-      image: 'src/assets/PRHome.png',
+      image: PRHome,
       source_code_link: "https://github.com/nikhilagastya/Pass_frontend_updated",
     },
     {
@@ -255,7 +258,7 @@ import {
           color: "orange-text-gradient",
         },
       ],
-      image: 'src/assets/BlindAid.png',
+      image: BlindAid,
       source_code_link: "https://github.com/nikhilagastya/Poject-Blind",
     },
     {
@@ -276,7 +279,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: 'src/assets/Artendance.png',
+      image: Artendance,
       source_code_link: "https://github.com/nikhilagastya/artendance-frontend",
     },
   ];
