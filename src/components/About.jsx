@@ -24,7 +24,7 @@ const ServiceCard = ({ index, title, icon }) => (
         <img
           src={icon}
           alt='web-development'
-          className='w-16 h-16 object-contain'
+          className='object-contain w-16 h-16'
         />
 
         <h3 className='text-white text-[20px] font-bold text-center'>
@@ -47,10 +47,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am an enthusiastic software developer with a strong foundation in computer fundamentals. I have worked on projects addressing real-world challenges and possess a keen interest in Machine Learning. I like understanding the underlying intricacies and architectures. Committed and diligent, I have been actively involved in projects and continuous learning throughout my college journey. I am looking for an opportunity to work in a challenging environment to prove my skills and utilize my knowledge and intelligence in the growth of the organization.
+        I’m a passionate software developer with a strong foundation in app and web development, along with a keen interest in machine learning. My relentless curiosity for technology drives me to continuously learn and implement the latest advancements. I thrive on solving real-world problems and exploring the intricate details of technology. Committed and diligent, I've actively engaged in projects that bridge theoretical knowledge with practical solutions. I’m eager to contribute my skills and drive innovation in a dynamic environment where I can grow and make a meaningful impact.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='flex flex-wrap gap-10 mt-20'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

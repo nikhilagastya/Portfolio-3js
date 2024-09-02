@@ -42,7 +42,7 @@ import {
   
   const services = [
     {
-      title: "Software Developer",
+      title: "Full-Stack Developer",
       icon: web,
     },
     {
@@ -50,11 +50,11 @@ import {
       icon: mobile,
     },
     {
-      title: "Entrepreneur",
+      title: "Cloud Architect",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "DevOps Engineer",
       icon: creator,
     },
   ];
@@ -76,14 +76,8 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
+    
+   
     {
       name: "React JS",
       icon: reactjs,
@@ -92,18 +86,12 @@ import {
       name: "Three JS",
       icon: threejs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    
     {
       name: "Node JS",
       icon: nodejs,
     },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
+   
     {
       name: "docker",
       icon: docker,
@@ -112,60 +100,80 @@ import {
       name: "TypeScript",
       icon: typescript,
     },
+    {
+      name: "JavaScript",
+      icon: 'src/assets/Jenkins.png',
+    },
+    {
+      name: "JavaScript",
+      icon: 'src/assets/MongoDB.png',
+    },
+    {
+      name: "JavaScript",
+      icon: 'src/assets/OpenCV.png',
+    },
+    {
+      name: "JavaScript",
+      icon: 'src/assets/AWS.png',
+    },
+    
   ];
   
   const experiences = [
     {
-      title: "Outreach Manager Intern",
-      company_name: "Flurno",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Feb 2022",
+      title: "Teaching Assisstant",
+      company_name: "Blue Sky Coding",
+      icon: 'http://www.blueskycoding-gh.com/assets/logo.png',
+      iconBg: "white",
+      date: "March 2022 - July 2022",
       points: [
-      "Helped the company in setting up a Discord community of over 1k college students",
-      "Managed events and community engagement on Discord.",
-      "Invited guest speakers from top tech companies.",
-      "Developed targeted marketing assets for Flurno Programs.",
+      "Helped the company in setting up a community of over 1k college students and working professionals",
+      "Worked as a teaching assistant and mentored a batch of 50 students",
+      "Assisted the faculty in the process of course creation and content curation",
+      "Devised innovative ways of teaching DSA and Web Technologies for begginers"
+     
       ],
     },
     {
-      title: "Community Head",
-      company_name: "StartNow",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Feb 2022 - Oct 2022",
+      title: "Research Intern",
+      company_name: "Indian Space Research Organization",
+      icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Indian_Space_Research_Organisation_Logo.svg/400px-Indian_Space_Research_Organisation_Logo.svg.png',
+      iconBg:"white" ,
+      date: "July 20223 - Oct 2023",
       points: [
-      "Founded global community for young entrepreneurs, fostering connections and knowledge-sharing.",
-      "Recognized as Top 5 Startup Community on Discord within 6 months.",
-      "Organized events, facilitated team connections, explored business opportunities.",
-      "Hosted sessions with industry leaders, provided valuable insights to members.",
-      "Implemented effective outreach strategies, ensuring vibrant community engagement.",
+      "Collabrated with a team of scientists to develop cutting-edge technologies in field of Satellite Imagery",
+      "Worked extensively on SuperResolution of satellite Imagery",
+      "Built CNN models which increase the quality of ground level satellite images by 40%.",
+      "Published a Research Paper titled Super Resolution Resourcesat-2 satellite imagery using SRCNN",
+     
       ],
     },
     {
-      title: "Founder & CEO",
-      company_name: "Startic Field",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jul 2022 - March 2023",
+      title: "Software Intern",
+      company_name: "EKSAQ",
+      icon: 'https://eksaq.in/wp-content/uploads/2019/05/Colored-logo-1170x536.png',
+      iconBg: "White",
+      date: "Oct 2023 - June 2024",
       points: [
-      "Created an application suite of gamified task management for startups and LP portfolio startup investment tracking.",
-      "Led focussed product development, enhancing user experience and satisfaction.",
-      "Directed agile product development, driving rapid innovation in startup building.",
-      "Devised strategy to expand market reach by leveraging existing customer base.",
+      "Built a in-house tool for content managment for multiple products.",
+      "Encorporated AI features for plagarism check and various language tools.",
+      "Enabled analytics and performances measure of content creators and editors.",
+      "Built AI pipelines for simplyfiying the process of Assert creation and animation"
       ],
     },
     {
-      title: "Software Engineer Intern",
-      company_name: "PredCo AI",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Apr 2023 - Present",
+      title: "Associate Software Engineer",
+      company_name: "EKSAQ",
+      icon: 'https://eksaq.in/wp-content/uploads/2019/05/Colored-logo-1170x536.png',
+      iconBg: "White",
+      date: "June 2024",
       points: [
-      "Designed the framework of IOT sensor data integration to an end-to-end ML based analytics software.",
-      "Created PRD and wireframes for the product, and developed the frontend using ReactJS.",
-      "Developed Rest APIs, aligning with frontend flow.",
-      "Integrated Elastic Search and Kibana Dashboards via dynamic APIs.",
+      "Led a team in desigining ,developing and testing a Learning Management System using React Native",
+      "Created a CI/CD pipeline for test and build automation.",
+      "Developed Rest APIs and scalable backend using Supabase.",
+      "Managed hoisting and data storage services on AWS using EC2 ,S3, Amplify and Cloudfront",
+      "Integrated anaytics for visualization of user behaviour",
+      "Developed and launched pilot for about 10,000 students in less than 2 months."
       ],
     },
   ];
@@ -199,71 +207,73 @@ import {
   
   const projects = [
     {
-      name: "Volt",
+      name: "ShowEazy",
       description:
-        "Volt is a comprehensive portfolio management software which offers a holistic solution for managing startup portfolios. Seamlessly manage your portfolio, track investments, and analyze performance all in one place with Volt's latest industry standards and best practices. Say goodbye to inefficiencies, embrace Volt!",
+        "ShowEazy is a pass-generating app and QR scanner is a streamlined solution designed to enhance event management for college activities. It automates the process of generating event passes and utilizes QR codes for seamless check-in. With a user-friendly interface, students receive their passes digitally, which they can easily scan at event entrances using the QR scanner.Say Bye-Bye to queus with BookEazy.",
       tags: [
         {
           name: "web dev",
           color: "blue-text-gradient",
         },
         {
-          name: "data visualization",
-          color: "green-text-gradient",
-        },
-        {
           name: "software engineering",
           color: "pink-text-gradient",
         },
+        {
+          name: "App dev",
+          color: "green-text-gradient",
+        },
+       
+
       ],
-      image: carrent,
-      source_code_link: "https://github.com/StarticField",
+      image: 'src/assets/PRHome.png',
+      source_code_link: "https://github.com/nikhilagastya/Pass_frontend_updated",
     },
     {
-      name: "PredCo",
+      name: "BlindAid",
       description:
-        "Web application that processes real-time data coming from IoT sensors installed in various industries. It serves as a powerful tool for Predictive Maintenance, enabling the detection of potential issues and triggering alerts. By optimizing scheduled maintenance activities, the application helps companies achieve significant cost savings.",
+        "Project Blind is a device designed to help visually impaired individuals navigate their surroundings independently and confidently through their audiory senses . It uses a combination of sensors, cameras, and advanced algorithms to identify objects and provide detailed descriptions like object detection ,human recognition and distance estimation in real-time..",
       tags: [
         {
           name: "internet of things",
           color: "blue-text-gradient",
         },
         {
-          name: "elastic search",
+          name: "Open-CV",
           color: "green-text-gradient",
         },
         {
-          name: "kibana",
+          name: "YOLO",
           color: "pink-text-gradient",
         },
         {
-          name: "aws-ec2",
+          name: "Flask",
           color: "orange-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/PriyanshNegi/PredCo",
+      image: 'src/assets/BlindAid.png',
+      source_code_link: "https://github.com/nikhilagastya/Poject-Blind",
     },
     {
-      name: "Prompt-X",
+      name: "Artandance",
       description:
-        "Prompt-X is an undergoing project designed to train language models and enhance prompt engineering. It will offer productivity analytics, personalized recommendations and insights for Chat GPT users. With its focus on training LLM models, Prompt-X is a powerful tool for optimizing workflows and advancing natural language understanding. ",
+        "Artandance is a comprehensive software solution designed to streamline attendance management. For students, Artandance offers an intuitive platform to track and manage attendance across multiple classes by integrating with their timetable.For professors, Artandance simplifies the process of posting and managing attendance. The software provides an efficient interface to record and update attendance in educational institutions.",
       tags: [
         {
-          name: "machine learning",
+          name: "MongoDB",
           color: "blue-text-gradient",
         },
         {
-          name: "web dev",
+          name: "React JS",
           color: "green-text-gradient",
         },
         {
-          name: "prompt engineering",
+          name: "Node",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/PriyanshNegi/Prompt-X-Website",
+      image: 'src/assets/Artendance.png',
+      source_code_link: "https://github.com/nikhilagastya/artendance-frontend",
     },
   ];
   
