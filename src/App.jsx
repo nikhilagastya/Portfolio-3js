@@ -1,5 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
-
+import { ToastContainer, toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 import AnimatedCursor from "react-animated-cursor"
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
 />
       <div className='relative z-0 bg-primary'>
         <div className='bg-center bg-no-repeat bg-cover bg-hero-pattern'>
+        <ToastContainer /> 
           <Navbar />
           <Hero />
         </div>

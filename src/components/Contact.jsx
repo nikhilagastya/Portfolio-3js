@@ -6,7 +6,8 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-
+import { ToastContainer, toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
   const formRef = useRef();
@@ -52,7 +53,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          toast.success("Thank you. I will get back to you as soon as possible.");
 
           setForm({
             name: "",
@@ -64,7 +65,7 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          toast.error("Ahh, something went wrong. Please try again.");
         }
       );
   };
@@ -73,6 +74,7 @@ const Contact = () => {
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
+       
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
