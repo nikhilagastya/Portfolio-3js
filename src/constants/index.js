@@ -23,6 +23,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    Jenkins,
+    MongoDB,
+    OpenCV,
+    AWS,
   } from "../assets";
   
   export const navLinks = [
@@ -102,19 +106,19 @@ import {
     },
     {
       name: "JavaScript",
-      icon: 'src/assets/Jenkins.png',
+      icon: Jenkins,
     },
     {
       name: "JavaScript",
-      icon: 'src/assets/MongoDB.png',
+      icon: MongoDB,
     },
     {
       name: "JavaScript",
-      icon: 'src/assets/OpenCV.png',
+      icon: OpenCV,
     },
     {
       name: "JavaScript",
-      icon: 'src/assets/AWS.png',
+      icon: AWS,
     },
     
   ];
